@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(exampleAdapter);
 
-
     }
 
     private void filter(String text) {
@@ -65,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
                 filteredList.add(string);
             }
         }
-
         exampleAdapter.filterList(filteredList);
 
     }
